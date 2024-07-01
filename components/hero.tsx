@@ -25,10 +25,16 @@ export default function Hero() {
         </motion.h1>
         <motion.p
           variants={{ hidden, visible }}
-          className="text-center text-muted-foreground text-sm sm:text-md lg:text-xl"
+          className="text-center text-foreground text-sm sm:text-md lg:text-xl"
         >
           We provide professional land management services for residential and
           commercial properties.
+        </motion.p>
+        <motion.p
+          variants={{ hidden, visible }}
+          className="text-center hover:underline text-red-400 text-sm sm:text-md lg:text-xl mt-1"
+        >
+          <Link href="/contact">Contact us today for a free estimate ➜</Link>
         </motion.p>
         <motion.div className="w-full flex items-center justify-center py-4 gap-8">
           <motion.div

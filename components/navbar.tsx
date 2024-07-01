@@ -16,11 +16,6 @@ export default function Navbar() {
             Home
           </Button>
         </Link>
-        <Link href="/services">
-          <Button variant="outline" className="uppercase hover:text-red-400">
-            Services
-          </Button>
-        </Link>
         <Link href="/contact">
           <Button variant="outline" className="uppercase hover:text-red-400">
             Contact
