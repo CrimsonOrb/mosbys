@@ -14,13 +14,12 @@ export default function ContactForm() {
         transition={{ duration: 0.8 }}
       >
         <div className="flex min-h-[200px] flex-col items-center justify-center">
-          <h1 className="text-2xl font-bold text-center mb-4 text-red-400">
+          <h1 className="text-2xl font-bold text-center mb-8 text-red-400">
             Contact us today for a free estimate below!
           </h1>
-          <Card className="p-8 w-4/5 max-w-2xl">
+          <Card className="w-full max-w-2xl">
             <CardContent>
-              {/* TODO: Add Contact Form ID */}
-              <Widget id="" className="w-full h-[300px] md:h-[500px]" />
+              <Widget id="N041JRcW" className="p-6 h-[450px] md:h-[500px]" />
             </CardContent>
           </Card>
         </div>
