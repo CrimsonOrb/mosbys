@@ -19,11 +19,12 @@ export default function Hero() {
       >
         <motion.h1
           variants={{ hidden, visible }}
-          className="text-center text-6xl sm:text-8xl lg:text-9xl font-bold text-[#5651e5]"
+          className="flex justify-center items-center text-6xl sm:text-8xl lg:text-9xl font-bold text-[#5651e5]"
         >
           <Image
             src={TextLogo}
             alt="Mosby's Land Management Service"
+            style={{ width: "auto", height: "auto" }}
             priority
           />
         </motion.h1>
