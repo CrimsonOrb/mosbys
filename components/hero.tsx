@@ -21,7 +21,11 @@ export default function Hero() {
           variants={{ hidden, visible }}
           className="text-center text-6xl sm:text-8xl lg:text-9xl font-bold text-[#5651e5]"
         >
-          <Image src={TextLogo} alt="Mosby's Land Management Service" />
+          <Image
+            src={TextLogo}
+            alt="Mosby's Land Management Service"
+            priority
+          />
         </motion.h1>
         <motion.p
           variants={{ hidden, visible }}
