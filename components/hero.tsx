@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import TextLogo from "../public/assets/text.png";
 import { AiOutlineMail } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
 
 export default function Hero() {
   const visible = { opacity: 1, y: 0, transition: { duration: 0.8 } };
@@ -50,6 +51,21 @@ export default function Hero() {
             <Link href="/contact" rel="noreferrer">
               <div className="rounded-full shadow-lg p-6 cursor-pointer">
                 <AiOutlineMail size={20} />
+              </div>
+            </Link>
+          </motion.div>
+          <motion.div
+            variants={{ hidden, visible }}
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+          >
+            <Link
+              href="https://www.facebook.com/mosbyslandmanagement/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div className="rounded-full shadow-lg p-6 cursor-pointer">
+                <FaFacebook size={20} />
               </div>
             </Link>
           </motion.div>
