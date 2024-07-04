@@ -27,7 +27,7 @@ export default function TechStack() {
         </div>
         <Link
           href="/contact"
-          className="flex justify-center items-center mt-4 text-red-400 hover:underline text-sm md:text-lg"
+          className="text-center flex justify-center items-center mt-4 text-red-400 hover:underline text-sm md:text-lg"
         >
           Contact us today for a free estimate ➜
         </Link>
